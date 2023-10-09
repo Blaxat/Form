@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.overall{
+  background: linear-gradient(45deg, #d6d3c6, #d2b892);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-container {
+  font-family:'Courier New', Courier, monospace;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.page-container1 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: large;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #d6d3c6, #d2b892);
+}
+
+
+.epage{
+  font-family:'Courier New', Courier, monospace;
+  font-size: large;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;
+  background: linear-gradient(45deg, #d6d3c6, #d2b892);
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d2b892;
+  border: 2px solid rgba(19, 16, 16, 0.2);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column; 
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input,
+select {
+  padding: 10px 2px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+}
+
+.button-container button {
+  flex: 1; 
+}
+
+
+button {
+  padding: 10px 10px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button[type="button"] {
+  background-color: #853e3e;
+  margin-right: 10px;
+  width: 25%;
+  transition: background-color 0.3s; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button[type="submit"] {
+  background-color: #1a3d62;
+  color: white;
+  width: 25%;
+  transition: background-color 0.3s; 
 }
+
+.custom-button {
+  background-color: green;
+  width: 25%;
+  transition: background-color 0.3s; 
+}
+
+.delete-button {
+  background-color: green;
+  width: 25%;
+  transition: background-color 0.3s; 
+}
+
+button[type="button"]:hover {
+  background-color: #682222; 
+}
+
+button[type="submit"]:hover {
+  background-color: #070c25; 
+}
+
+.custom-button:hover {
+  background-color: darkgreen; 
+}
+
+.delete-button:hover {
+  background-color: darkgreen; 
+}
+
+
+
