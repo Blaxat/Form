@@ -348,7 +348,7 @@ function MultiStepForm() {
             onChange={(e) => handleEntryInputChange(e, 'form2', index)}
             placeholder="Enter Issue Number"
           />
-          <label htmlFor={`page-${index}`}>Page(s):</label>
+          <label htmlFor={`page-${index}`}>Page Number:</label>
           <input
           required
             type="text"
@@ -356,7 +356,7 @@ function MultiStepForm() {
             name="page"
             value={entry.page}
             onChange={(e) => handleEntryInputChange(e, 'form2', index)}
-            placeholder="Enter Page(s)"
+            placeholder="Enter Page Number"
           />
           <label htmlFor={`impactFactor-${index}`}>IF:</label>
           <input
@@ -506,7 +506,7 @@ function MultiStepForm() {
               onChange={(e) => handleEntryInputChange(e, 'form3', index)}
               placeholder="Enter Issue Number"
             />
-            <label htmlFor={`page-${index}`}>Page(s):</label>
+            <label htmlFor={`page-${index}`}>Page Number:</label>
             <input
             required
               type="text"
@@ -514,7 +514,7 @@ function MultiStepForm() {
               name="page"
               value={entry.page}
               onChange={(e) => handleEntryInputChange(e, 'form3', index)}
-              placeholder="Enter Page(s)"
+              placeholder="Enter Page Number"
             />
             <label htmlFor={`impactFactor-${index}`}>IF:</label>
             <input
@@ -675,7 +675,7 @@ function MultiStepForm() {
                 onChange={(e) => handleEntryInputChange(e, 'form4', index)}
                 placeholder="Enter Volume"
               />
-              <label htmlFor={`page-${index}`}>Page(s):</label>
+              <label htmlFor={`page-${index}`}>Page Number:</label>
               <input
               required
                 type="text"
@@ -683,7 +683,7 @@ function MultiStepForm() {
                 name="page"
                 value={entry.page}
                 onChange={(e) => handleEntryInputChange(e, 'form4', index)}
-                placeholder="Enter Page(s)"
+                placeholder="Enter Page Number"
               />
               <label htmlFor={`impactFactor-${index}`}>IF:</label>
               <input
@@ -823,7 +823,7 @@ function MultiStepForm() {
             onChange={(e) => handleEntryInputChange(e, 'form5', index)}
             placeholder="Enter Volume"
           />
-          <label htmlFor={`page-${index}`}>Page(s):</label>
+          <label htmlFor={`page-${index}`}>Page Number:</label>
           <input
           required
             type="text"
@@ -831,7 +831,7 @@ function MultiStepForm() {
             name="page"
             value={entry.page}
             onChange={(e) => handleEntryInputChange(e, 'form5', index)}
-            placeholder="Enter Page(s)"
+            placeholder="Enter Page Number"
           />
           <label htmlFor={`impactFactor-${index}`}>IF:</label>
           <input
